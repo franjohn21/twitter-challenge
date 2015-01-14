@@ -14,5 +14,5 @@ To run:
 -- Run 'shotgun' in terminal. Browse to http://localhost:9393 and that will jumpstart the app in terminal. 
 
 It should look like this:
-[Imgur](http://i.imgur.com/P5xcZo9.png)
+![Imgur](http://i.imgur.com/P5xcZo9.png)
 
