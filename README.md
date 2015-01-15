@@ -8,7 +8,7 @@ To run:
 
 -- 'Bundle install' in terminal 
 
--- Modify user_defined_window in app/controllers/index.rb.
+-- Modify @user_defined_window in app/controllers/index.rb.
 
 -- Add a .env file underneath the main directory. Populate with:
 
