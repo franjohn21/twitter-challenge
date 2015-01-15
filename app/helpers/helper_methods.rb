@@ -1,6 +1,6 @@
 ### add_retweet
 ### Parameters: status- The retweet information 
-### Returns: Sets the application-scope variable
+### Returns: Sets the application-scope variable @tweet_db. If the original tweet has already been retweeted, it will just add the newest retweet's information under @tweet_db[<original id>][:retweets][<new retweet id>]. 
 def add_retweet(status)
 	@tweet_db[status.retweeted_status.id] ||= {
 		:original => status.retweeted_status,
